@@ -1,0 +1,56 @@
+Burner Drill Component (f0-resources:burner_drill_part - 1419:0) has a TileEntity
+Full block state: f0-resources:burner_drill_part
+Hardness: 3.0000, Resistance: 30.0000, Material: IRON
+Block class: v0id.f0resources.block.BlockBurnerDrillPart
+IBlockState properties: <none>
+TileEntity class: v0id.f0resources.tile.TileBurnerDrill
+
+TileEntity NBT (from TileEntity#writeToNBT()):
+TAG_Compound (10) ('')
+{
+    TAG_Byte (1) ('isCenter'): 0
+    TAG_Byte (1) ('rotating'): 0
+    TAG_Float (5) ('minedMultiplier'): 1.0
+    TAG_Compound (10) ('fuelHandler')
+    {
+        TAG_Int (3) ('maxFuel'): 1
+        TAG_Int (3) ('fuel'): 0
+    }
+    TAG_Compound (10) ('inventory')
+    {
+        TAG_Int (3) ('Size'): 2
+        TAG_List (9) ('Items') (0 entries of TAG_End (0))
+        {
+        }
+    }
+    TAG_Compound (10) ('centerPos')
+    {
+        TAG_Int (3) ('X'): 253
+        TAG_Int (3) ('Y'): 69
+        TAG_Int (3) ('Z'): -137
+    }
+    TAG_Compound (10) ('minedOre')
+    {
+        TAG_String (8) ('id'): "minecraft:air"
+        TAG_Byte (1) ('Count'): 1
+        TAG_Compound (10) ('tag')
+        {
+            TAG_Compound (10) ('upgrades')
+            {
+            }
+        }
+        TAG_Short (2) ('Damage'): 0
+    }
+    TAG_Byte (1) ('hasFuel'): 0
+    TAG_Int (3) ('x'): 254
+    TAG_Int (3) ('y'): 69
+    TAG_Float (5) ('progress'): 0.0
+    TAG_Int (3) ('z'): -137
+    TAG_String (8) ('id'): "f0-resources:burner_drill"
+    TAG_Compound (10) ('outputPos')
+    {
+        TAG_Int (3) ('X'): 0
+        TAG_Int (3) ('Y'): 0
+        TAG_Int (3) ('Z'): 0
+    }
+}

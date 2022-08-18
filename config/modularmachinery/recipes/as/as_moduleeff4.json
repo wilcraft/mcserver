@@ -1,0 +1,41 @@
+{
+    "machine": "assembler_standard",
+    "registryName": "as_moduleeff4",
+    "recipeTime": 1600,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 350
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "mekanism:controlcircuit@2",
+            "amount": 5
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "mekanism:controlcircuit@3",
+            "amount": 5
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:concrete_powder@5",
+            "amount": 5
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "mekanism:speedupgrade",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "mekanism:energyupgrade",
+            "amount": 1
+        }    ]
+}

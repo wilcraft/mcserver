@@ -1,0 +1,9 @@
+mods.ltt.LootTable.removeModEntry("forestry");
+mods.ltt.LootTable.removeGlobalItem("immersiveengineering:metal:24");
+mods.ltt.LootTable.removeGlobalItem("immersiveengineering:shovel_steel");
+mods.ltt.LootTable.removeGlobalItem("immersiveengineering:metal:22");
+mods.ltt.LootTable.removeGlobalItem("immersiveengineering:axe_steel");
+mods.ltt.LootTable.removeGlobalItem("immersiveengineering:sword_steel");
+mods.ltt.LootTable.removeGlobalItem("immersiveengineering:metal:23");
+mods.ltt.LootTable.removeGlobalItem("immersiveengineering:pickaxe_steel");
+mods.ltt.LootTable.removeGlobalItem("immersiveengineering:metal:1");

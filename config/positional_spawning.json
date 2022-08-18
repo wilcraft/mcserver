@@ -1,0 +1,17 @@
+[
+  {
+    "techguns:slimy" : {
+      "chance": 50,
+      "entities": [
+        "techguns:alienbug",
+        "techguns:alienbug",
+        "techguns:alienbug",
+        "techguns:alienbug",
+        "minecraft:spider",
+        "minecraft:silverfish",
+        "minecraft:slime",
+        "minecraft:cave_spider"
+      ]
+    }
+  }
+]

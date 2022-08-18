@@ -1,0 +1,27 @@
+//If this file is deleted, a new set of default configs will be generated.
+
+//Sets if the mod should print documentation.
+printDocumentation(false)
+
+//Sets the Topography WorldType as default
+setAsDefaultWorldType()
+
+//Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
+
+overworld = registerPreset("Overworld", "images/Overworld", "Basic overworld. (if getting performance issues, try switching to normal minecraft world generation)")
+overworld.registerDimension(0, "examples/Overworld")
+
+overworld = registerPreset("Desert World", "images/Desert_Overworld", "Overworld with only desert and mesa biomes.")
+overworld.registerDimension(0, "examples/Overworld_With_Only_Desert_Biomes")
+
+wasteland = registerPreset("Wasteland", "images/Wasteland", "Pollution Paradise.")
+wasteland.registerDimension(0, "examples/Polluted_World")
+
+volcano = registerPreset("Hell World", "images/HellWorld", "Hellworld, pure evil.")
+volcano.registerDimension(0, "examples/Volcano_World")
+
+structureExample = registerPreset("Void World", "images/Basic_Tree", "Tree in a void.")
+structureExample.registerDimension(0, "examples/Spawn_Structure")
+
+voidbase = registerPreset("Void Base", "images/VoidBase", "Base in a void among floating rock pillars")
+voidbase.registerDimension(0, "examples/VoidBase")

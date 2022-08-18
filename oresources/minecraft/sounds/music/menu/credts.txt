@@ -1,0 +1,13 @@
+Music from https://filmmusic.io
+License: CC BY (http://creativecommons.org/licenses/by/4.0/)
+
+Menu Music:
+"Mechanolith" by Kevin MacLeod (https://incompetech.com)
+
+
+"Crypto" by Kevin MacLeod (https://incompetech.com)
+"Lightless Dawn" by Kevin MacLeod (https://incompetech.com)
+
+
+
+Copy that file to the game folder and rename it calm1.ogg. Then do the same for calm2, calm3, hal1, hal2, hal3, hal4, nuance1, nuance2, piano1, piano2, and piano3.

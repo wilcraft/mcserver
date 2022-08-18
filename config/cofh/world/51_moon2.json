@@ -1,0 +1,38 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+		"moon2": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "libvulpes:ore0",
+				"material": [
+					"minecraft:stone"
+				],
+				"cluster-size": 12
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 96,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"advancedrocketry:moon",
+							"advancedrocketry:crystalchasms",
+							"advancedrocketry:moondark"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					2
+				]
+			}
+		}
+	}
+}

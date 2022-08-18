@@ -1,0 +1,511 @@
+{
+	"wiki": "//looking to customize your own invasions? see http://coros.us/wiki/index.php?title=Hostile_Worlds_-_Invasions_-_Customizing for helpfull info",
+	"format": "mob_spawns",
+	"templates": [{
+			"name": "invasion_stage_1",
+			"wave_message": "§cThe local wildlife is disturbed by your presence.",
+			"conditions": [{
+				"condition": "invasion_number",
+				"min": 1,
+				"max": 1
+			}],
+			"spawns": [{
+				"entities": [
+					"minecraft:silverfish"
+				],
+				"count": 10,
+				"count_max": 10,
+				"count_difficulty_multiplier": 0,
+				"spawn_type": "surface"
+			}]
+		},
+		{
+			"name": "invasion_stage_2",
+			"wave_message": "§cZombies incoming!",
+			"conditions": [{
+				"condition": "invasion_number",
+				"min": 2,
+				"max": 2
+			}],
+			"spawns": [{
+					"entities": [
+						"techguns:zombiefarmer"
+					],
+					"count": 3,
+					"count_max": 5,
+					"count_difficulty_multiplier": 2,
+					"spawn_type": "ground",
+					"cmods": [{
+						"cmod": "template",
+						"template": "ai_lunge"
+					}]
+				},
+				{
+					"entities": [
+						"techguns:zombieminer"
+					],
+					"count": 3,
+					"count_max": 5,
+					"count_difficulty_multiplier": 2,
+					"spawn_type": "ground",
+					"cmods": [{
+						"cmod": "template",
+						"template": "invader_miner"
+					}]
+				},
+				{
+					"entities": [
+						"techguns:zombiesoldier"
+					],
+					"count": 1,
+					"count_max": 3,
+					"count_difficulty_multiplier": 2,
+					"spawn_type": "ground",
+					"cmods": [{
+						"cmod": "template",
+						"template": "invader_soldier"
+					}]
+				}
+			]
+		},
+		{
+			"name": "invasion_stage_3",
+			"wave_message": "§cA small swarm of Alien Bugs has been detected",
+			"conditions": [{
+				"condition": "invasion_number",
+				"min": 3,
+				"max": 3
+			}],
+			"spawns": [{
+				"entities": [
+					"techguns:alienbug"
+				],
+				"count": 3,
+				"count_max": 5,
+				"count_difficulty_multiplier": 2,
+				"spawn_type": "surface",
+				"cmods": [{
+					"cmod": "template",
+					"template": "invader_alien"
+				}]
+			}]
+		},
+		{
+			"name": "invasion_stage_4",
+			"wave_message": "§cA small flying swarm has been detected",
+			"conditions": [{
+				"condition": "invasion_number",
+				"min": 4,
+				"max": 4
+			}],
+			"spawns": [{
+					"entities": [
+						"mowziesmobs:naga"
+					],
+					"count": 1,
+					"count_max": 3,
+					"count_difficulty_multiplier": 2,
+					"spawn_type": "surface"
+				}
+			]
+		},
+		{
+			"name": "invasion_stage_5a",
+			"wave_message": "§cAn Alien Bug Swarm has been detected!",
+			"conditions": [{
+					"condition": "invasion_number",
+					"min": 5
+				},
+				{
+					"condition": "random",
+					"weight": 10
+				}
+			],
+			"spawns": [{
+				"entities": [
+					"techguns:alienbug"
+				],
+				"count": 7,
+				"count_max": 22,
+				"count_difficulty_multiplier": 2,
+				"spawn_type": "surface",
+				"cmods": [{
+						"cmod": "template",
+						"template": "invader_alien"
+					},
+					{
+						"cmod": "template",
+						"template": "buffed_attributes"
+					}
+				]
+			}]
+		},
+		{
+			"name": "invasion_stage_5b",
+			"wave_message": "§cA flying swarm has been detected",
+			"conditions": [{
+					"condition": "invasion_number",
+					"min": 5
+				},
+				{
+					"condition": "random",
+					"weight": 2
+				}
+			],
+			"spawns": [{
+					"entities": [
+						"mowziesmobs:naga"
+					],
+					"count": 3,
+					"count_max": 14,
+					"count_difficulty_multiplier": 2,
+					"spawn_type": "surface",
+					"cmods": [{
+						"cmod": "template",
+						"template": "buffed_attributes"
+					}]
+				}
+			]
+		},
+		{
+			"name": "invasion_stage_5c",
+			"wave_message": "§cA Bakakoan hunting party has been detected!",
+			"conditions": [{
+					"condition": "invasion_number",
+					"min": 5
+				},
+				{
+					"condition": "random",
+					"weight": 2
+				}
+			],
+			"spawns": [{
+				"entities": [
+					"mowziesmobs:barakoana"
+				],
+				"count": 1,
+				"count_max": 3,
+				"count_difficulty_multiplier": 2,
+				"spawn_type": "surface",
+				"cmods": [{
+						"cmod": "template",
+						"template": "invader_soldier"
+					},
+					{
+						"cmod": "template",
+						"template": "buffed_attributes"
+					}
+				]
+			}]
+		},
+		{
+			"name": "invasion_stage_5d",
+			"wave_message": "§cA military strike force has been detected!",
+			"conditions": [{
+					"condition": "invasion_number",
+					"min": 5
+				},
+				{
+					"condition": "random",
+					"weight": 2
+				}
+			],
+			"spawns": [{
+					"entities": [
+						"techguns:armysoldier"
+					],
+					"count": 3,
+					"count_max": 5,
+					"count_difficulty_multiplier": 2,
+					"spawn_type": "surface",
+					"cmods": [{
+							"cmod": "template",
+							"template": "invader_alien"
+						},
+						{
+							"cmod": "template",
+							"template": "buffed_attributes"
+						}
+					]
+				},
+				{
+					"entities": [
+						"techguns:commando"
+					],
+					"count": 1,
+					"count_max": 3,
+					"count_difficulty_multiplier": 2,
+					"spawn_type": "surface",
+					"cmods": [{
+							"cmod": "template",
+							"template": "invader_alien"
+						},
+						{
+							"cmod": "template",
+							"template": "buffed_attributes"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "invasion_stage_6a",
+			"wave_message": "§cAn Alien Mega Swarm has been detected!",
+			"conditions": [{
+					"condition": "invasion_number",
+					"min": 10
+				},
+				{
+					"condition": "random",
+					"weight": 10
+				}
+			],
+			"spawns": [{
+					"entities": [
+						"techguns:alienbug"
+					],
+					"count": 9,
+					"count_max": 26,
+					"count_difficulty_multiplier": 2,
+					"spawn_type": "surface",
+					"cmods": [{
+							"cmod": "template",
+							"template": "invader_alien"
+						},
+						{
+							"cmod": "template",
+							"template": "buffed_attributes"
+						}
+					]
+				},
+				{
+					"entities": [
+						"mowziesmobs:naga"
+					],
+					"count": 3,
+					"count_max": 12,
+					"count_difficulty_multiplier": 2,
+					"spawn_type": "surface",
+					"cmods": [{
+						"cmod": "template",
+						"template": "buffed_attributes"
+					}]
+				},
+				{
+					"entities": [
+						"minecraft:silverfish"
+					],
+					"count": 10,
+					"count_max": 40,
+					"count_difficulty_multiplier": 2,
+					"spawn_type": "surface"
+				}
+			]
+		},
+		{
+			"name": "invasion_stage_6b",
+			"wave_message": "§cA large flying swarm has been detected",
+			"conditions": [{
+					"condition": "invasion_number",
+					"min": 10
+				},
+				{
+					"condition": "random",
+					"weight": 2
+				}
+			],
+			"spawns": [{
+					"entities": [
+						"mowziesmobs:naga"
+					],
+					"count": 5,
+					"count_max": 22,
+					"count_difficulty_multiplier": 2,
+					"spawn_type": "surface",
+					"cmods": [{
+						"cmod": "template",
+						"template": "buffed_attributes"
+					}]
+				}
+			]
+		},
+		{
+			"name": "invasion_stage_6c",
+			"wave_message": "§cA Bakakoan warband has been detected!",
+			"conditions": [{
+					"condition": "invasion_number",
+					"min": 10
+				},
+				{
+					"condition": "random",
+					"weight": 2
+				}
+			],
+			"spawns": [{
+				"entities": [
+					"mowziesmobs:barakoana"
+				],
+				"count": 3,
+				"count_max": 5,
+				"count_difficulty_multiplier": 2,
+				"spawn_type": "surface",
+				"cmods": [{
+						"cmod": "template",
+						"template": "invader_soldier"
+					},
+					{
+						"cmod": "template",
+						"template": "buffed_attributes"
+					}
+				]
+			}]
+		},
+		{
+			"name": "invasion_stage_6d",
+			"wave_message": "§cA military incursion has been detected!",
+			"conditions": [{
+					"condition": "invasion_number",
+					"min": 10
+				},
+				{
+					"condition": "random",
+					"weight": 2
+				}
+			],
+			"spawns": [{
+					"entities": [
+						"techguns:armysoldier"
+					],
+					"count": 5,
+					"count_max": 7,
+					"count_difficulty_multiplier": 2,
+					"spawn_type": "surface",
+					"cmods": [{
+							"cmod": "template",
+							"template": "invader_alien"
+						},
+						{
+							"cmod": "template",
+							"template": "buffed_attributes"
+						}
+					]
+				},
+				{
+					"entities": [
+						"techguns:commando"
+					],
+					"count": 3,
+					"count_max": 5,
+					"count_difficulty_multiplier": 2,
+					"spawn_type": "surface",
+					"cmods": [{
+							"cmod": "template",
+							"template": "invader_alien"
+						},
+						{
+							"cmod": "template",
+							"template": "buffed_attributes"
+						}
+					]
+				},
+				{
+					"entities": [
+						"techguns:stormtrooper"
+					],
+					"count": 1,
+					"count_max": 3,
+					"count_difficulty_multiplier": 2,
+					"spawn_type": "surface",
+					"cmods": [{
+							"cmod": "template",
+							"template": "invader_alien"
+						},
+						{
+							"cmod": "template",
+							"template": "buffed_attributes"
+						}
+					]
+				},
+				{
+					"entities": [
+						"techguns:attackhelicopter"
+					],
+					"count": 1,
+					"count_max": 2,
+					"count_difficulty_multiplier": 2,
+					"spawn_type": "surface",
+					"cmods": [{
+						"cmod": "template",
+						"template": "buffed_attributes"
+					}]
+				}
+			]
+		},
+		{
+			"name": "invasion_stage_6e",
+			"wave_message": "§cHell Invasion! Heavy Metal music intensifies...",
+			"conditions": [{
+					"condition": "invasion_number",
+					"min": 10
+				},
+				{
+					"condition": "random",
+					"weight": 2
+				}
+			],
+			"spawns": [{
+				"entities": [
+					"techguns:cyberdemon",
+					"techguns:zombiepigmansoldier",
+					"minecraft:blaze"
+				],
+				"count": 10,
+				"count_max": 40,
+				"count_difficulty_multiplier": 2,
+				"spawn_type": "surface",
+				"cmods": [{
+						"cmod": "template",
+						"template": "invader_soldier"
+					},
+					{
+						"cmod": "template",
+						"template": "buffed_attributes"
+					}
+				]
+			}]
+		},
+		{
+			"name": "invasion_stage_6f",
+			"wave_message": "§cSuper Mutants spotted!",
+			"conditions": [{
+					"condition": "invasion_number",
+					"min": 10
+				},
+				{
+					"condition": "random",
+					"weight": 2
+				}
+			],
+			"spawns": [{
+				"entities": [
+					"techguns:supermutantbasic",
+					"techguns:supermutantelite",
+					"techguns:supermutantheavy"
+				],
+				"count": 5,
+				"count_max": 15,
+				"count_difficulty_multiplier": 2,
+				"spawn_type": "surface",
+				"cmods": [{
+						"cmod": "template",
+						"template": "invader_soldier"
+					},
+					{
+						"cmod": "template",
+						"template": "buffed_attributes"
+					}
+				]
+			}]
+		}
+	]
+}

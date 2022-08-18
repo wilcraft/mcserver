@@ -237,12 +237,64 @@
       "rotation": null
     }
   },
-  "betterboiler:controller",
-  "betterboiler:boiler",
-  "betterboiler:firebox",
-  "betterboiler:firebox_hatch",
-  "betterboiler:boiler_valve",
-  "betterboiler:boiler_vent",
-  "betterboiler:boiler_pump",
-  "betterboiler:boiler_pump"
+  "magneticraft:inserter",
+  "metalchests:metal_chest",
+  "thermaldynamics:duct_32_0",
+  "thermaldynamics:duct_32",
+  {
+    "block": "modularmachinery:blockcontroller",
+    "keepNBT": {
+      "casingColor": null
+    }
+  },
+  {
+    "block": "modularmachinery:blockcasing",
+    "keepNBT": {
+      "casingColor": null
+    }
+  },
+  {
+    "block": "modularmachinery:blockfluidinputhatch",
+    "keepNBT": {
+      "casingColor": null,
+      "input": null,
+      "size": null
+    }
+  },
+  {
+    "block": "modularmachinery:blockfluidoutputhatch",
+    "keepNBT": {
+      "casingColor": null,
+      "input": null,
+      "size": null
+    }
+  },
+  {
+    "block": "modularmachinery:blockinputbus",
+    "keepNBT": {
+      "casingColor": null,
+      "busSize": null
+    }
+  },
+  {
+    "block": "modularmachinery:blockoutputbus",
+    "keepNBT": {
+      "casingColor": null,
+      "busSize": null
+    }
+  },
+  {
+    "block": "modularmachinery:blockenergyinputhatch",
+    "keepNBT": {
+      "casingColor": null,
+      "hatchSize": null
+    }
+  },
+  {
+    "block": "modularmachinery:blockenergyoutputhatch",
+    "keepNBT": {
+      "casingColor": null,
+      "hatchSize": null
+    }
+  }
 ]

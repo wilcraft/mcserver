@@ -1,0 +1,98 @@
+setSpawnStructure("base")
+
+//Sets the dimension to be only the hell biome.
+//setSingleBiome("minecraft:hell")
+
+//Makes the dimension have render permanent snow, colored black, for an effect akin to ash falling from the sky.
+//weather = overrideWeatherRenderer()
+//weather.persistentSnow()
+//weather.setSnowColor(#000000)
+
+//Adds a basic overworld terrain generator and sets it to generate obsidian and lava instead of stone and water, with a higher sea level.
+overworld = new OverworldGenerator()
+overworld.setTerrainBlock(<polluted_earth:polluted_earth>)
+overworld.setOceanBlock(<adpother:polluted_water>)
+overworld.setSeaLevel(60)
+addGenerator(overworld)
+
+
+///spheres = new DeformedSphereGenerator(<minecraft:sand>, 10, 32, 32, 8)
+///spheres.addRequiredBlock(<polluted_earth:polluted_earth>)
+///addGenerator(spheres)
+
+///spheres = new DeformedSphereGenerator(<minecraft:gravel>, 10, 32, 32, 8)
+///spheres.addRequiredBlock(<polluted_earth:polluted_earth>)
+///addGenerator(spheres)
+
+
+spheres = new DeformedSphereGenerator(<minecraft:dirt:1>, 10, 32, 32, 8)
+spheres.addRequiredBlock(<polluted_earth:polluted_earth>)
+addGenerator(spheres)
+
+spheres = new DeformedSphereGenerator(<minecraft:stone>, 10, 32, 32, 8)
+spheres.addRequiredBlock(<polluted_earth:polluted_earth>)
+addGenerator(spheres)
+
+///spheres = new DeformedSphereGenerator(<minecraft:dirt>, 10, 32, 32, 8)
+///spheres.addRequiredBlock(<polluted_earth:polluted_earth>)
+///addGenerator(spheres)
+
+///spheres = new DeformedSphereGenerator(<minecraft:grass>, 10, 32, 32, 4)
+///spheres.addRequiredBlock(<minecraft:grass>)
+///addGenerator(spheres)
+
+caves = new VanillaCaveGenerator()
+addGenerator(caves)
+
+ravines = new VanillaRavineGenerator()
+addGenerator(ravines)
+
+generateMineshaft()
+generateVillage()
+generateStronghold()
+generateTemple()
+generateMonument()
+generateMansion(overworld)
+
+
+waterLake = new VanillaLakeGenerator(<minecraft:lava>)
+//waterLake.blacklistBiome(["minecraft:desert", "minecraft:desert_hills"])
+addGenerator(waterLake)
+
+
+//Add lava lakes for above sea level. These are fairly rare.
+lavaLake = new VanillaLakeGenerator(<minecraft:water>)
+lavaLake.setSpawnChance(100)
+lavaLake.setHeight(61, 247)
+addGenerator(lavaLake)
+
+//Add laval lakes for below sea level. This are fairly common.
+lavaLake = new VanillaLakeGenerator(<minecraft:lava>)
+lavaLake.setSpawnChance(32)
+lavaLake.setHeight(8, 62)
+addGenerator(lavaLake)
+
+//Adds vanilla dungeons.
+dungeon = new VanillaDungeonGenerator()
+addGenerator(dungeon)
+
+//Sets the fog color to the same as the vanilla nether.
+setFogColor(#bcc742)
+
+//Sets a static celestial angle so it's always night.
+//setCelestialAngle(0.5)
+
+//Disables sky rendering.
+//disableSky()
+
+//Disables clouds.
+//disableClouds()
+
+//Disables skylight.
+//disableSkylight()
+
+//Vaporizes all water/ice placed in the dimension.
+//vaporizeWater()
+
+//Sets a custom light brightness table. This is the same as is used in the vanilla nether. Makes it a bit brighter, especially at low light levels.
+//setLightBrightnessTable([0.1, 0.11578947, 0.13333333, 0.15294117, 0.175, 0.20000002, 0.22857141, 0.26153848, 0.3, 0.34545457, 0.4, 0.46666667, 0.5500001, 0.6571429, 0.79999995, 1.0])

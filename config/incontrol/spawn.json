@@ -1,7 +1,81 @@
 [
-	{
-    "mob": "minecraft:bat",
-    "mincount": 0,
+   {
+    "hostile": true,
+    "block": ["ore:concrete"],
+    "result": "deny"
+  },
+   {
+    "hostile": true,
+    "block": ["immersiveengineering:stone_decoration","minecraft:concrete_powder"],
+    "result": "deny"
+  },
+   {
+    "hostile": true,
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+   {
+    "mob": ["mowziesmobs:naga"],
+    "onjoin": true,
+    "difficulty": "peaceful",
+    "result": "deny"
+  },
+   {
+    "mob": ["mowziesmobs:naga"],
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+   {
+    "mob": ["minecraft:squid"],
+    "result": "deny"
+  },
+   {
+    "mob": ["mowziesmobs:naga"],
+    "block": ["minecraft:grass", "minecraft:dirt", "minecraft:sand", "minecraft:gravel", "minecraft:dirt:1", "minecraft:coal_ore", "minecraft:stone", "minecraft:sandstone", "minecraft:obsidian"],
+    "result": "deny"
+  },
+   {
+    "mob": ["drones:drone"],
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+   {
+    "mob": ["mowziesmobs:lantern"],
+    "mincount": 5,
+    "perchunk": true,
+    "result": "deny"
+  },
+   {
+    "mob": ["mowziesmobs:lantern"],
+    "block": ["minecraft:grass"],
+    "result": "allow"
+  },
+   {
+    "mob": ["mowziesmobs:lantern"],
+    "result": "deny"
+  },
+   {
+    "hostile": true,
+    "block": ["minecraft:grass", "minecraft:dirt", "minecraft:sand", "minecraft:gravel", "minecraft:dirt:1", "minecraft:coal_ore", "magneticraft:limestone", "minecraft:sandstone", "minecraft:glowstone", "microblockcbe:microblock"],
+    "result": "deny"
+  },
+  {
+    "mob": ["techguns:alienbug"],
+    "result": "default",
+    "speedmultiply": 0.5
+  },
+  {
+    "mob": ["techguns:alienbug"],
+    "onjoin": true,
+    "result": "default",
+    "speedmultiply": 0.7
+  },
+  {
+    "hostile": false,
+    "block": ["minecraft:obsidian"],
     "result": "deny"
   }
 ]

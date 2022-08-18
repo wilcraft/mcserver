@@ -1,0 +1,261 @@
+<!-->
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="false">
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>plateIron</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>libvulpes:productsheet 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>plateCopper</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>libvulpes:productsheet 1 4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>plateSteel</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>libvulpes:productsheet 1 6</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>plateTitanium</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>libvulpes:productsheet 1 7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>plateAluminum</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>libvulpes:productsheet 1 9</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>plateTitaniumAluminide</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productsheet</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>ingotGold</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material 1 33</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>ingotTitaniumAluminide</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>ingotAluminum</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material 1 324</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>ingotIron</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material 1 32</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>ingotSteel</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material 1 352</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>ingotElectrum</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material 1 353</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>ingotSilver</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material 1 322</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>ingotUranium</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>immersiveengineering:metal 1 35</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>ingotTin</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material 1 321</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>ingotTitanium</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared 1 54</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>ingotLead</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material 1 323</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>itemSilicon</oreDict>
+			<fluidStack>sulfuricacid 50</fluidStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:wafer 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>ingotNickel</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material 1 325</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>ingotCopper</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material 1 320</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>ingotConstantan</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>thermalfoundation:material 1 356</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>sheetIron</oreDict>
+			<oreDict>sheetIron</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:pressuretank</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>sheetSteel</oreDict>
+			<oreDict>sheetSteel</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:pressuretank 1 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>sheetAluminum</oreDict>
+			<oreDict>sheetAluminum</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:pressuretank 1 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<oreDict>sheetTitanium</oreDict>
+			<oreDict>sheetTitanium</oreDict>
+			<fluidStack>lubricant 20</fluidStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:pressuretank 1 3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="94" power ="220">
+		<input>
+			<itemStack>mekanism:polyethene 1 2</itemStack>
+		</input>
+		<output>
+			<itemStack>techguns:itemshared 4 55</itemStack>
+		</output>
+	</Recipe>
+</Recipes>

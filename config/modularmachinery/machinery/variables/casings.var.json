@@ -22,5 +22,9 @@
     "casings_item": [
         "modularmachinery:blockinputbus",
         "modularmachinery:blockoutputbus"
+    ],
+    "casings_inputs": [
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockfluidinputhatch@2"
     ]
 }

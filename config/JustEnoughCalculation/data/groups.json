@@ -1,0 +1,1741 @@
+{"Default": [
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "mekanism:controlcircuit"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 3L,
+                    "item": "immersiveengineering:material",
+                    "meta": 20
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "minecraft:redstone"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "thermalfoundation:material",
+                    "meta": 32
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "techguns:itemshared",
+                "meta": 55
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "minecraft:coal"
+                }
+            },
+            {
+                "type": "fluidStack",
+                "content": {
+                    "amount": 20L,
+                    "fluid": "gasoline"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 2L,
+                "item": "immersiveengineering:material",
+                "meta": 20
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "thermalfoundation:material",
+                "meta": 320
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "mekanism:controlcircuit",
+                "meta": 1
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 2L,
+                    "item": "mekanism:controlcircuit"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 4L,
+                    "item": "immersiveengineering:material",
+                    "meta": 20
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 2L,
+                    "item": "techguns:itemshared",
+                    "meta": 55
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 2L,
+                "item": "thermalfoundation:material",
+                "meta": 128
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "thermalfoundation:ore"
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "thermalfoundation:material",
+                "meta": 32
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:iron_ingot"
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 2L,
+                "item": "minecraft:iron_ingot"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:iron_ore"
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "thermalfoundation:material",
+                "meta": 320
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "thermalfoundation:material",
+                "meta": 128
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 6L,
+                "item": "minecraft:redstone"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:redstone_ore"
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "mekanism:controlcircuit",
+                "meta": 2
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 20L,
+                    "item": "mekanism:controlcircuit"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 2L,
+                    "item": "mekanism:controlcircuit",
+                    "meta": 1
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "techguns:itemshared",
+                    "meta": 63
+                }
+            },
+            {
+                "type": "fluidStack",
+                "content": {
+                    "amount": 150L,
+                    "fluid": "sulfuricacid"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "fluidStack",
+            "content": {
+                "amount": 50L,
+                "fluid": "sulfuricacid"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 5L,
+                    "item": "thermalfoundation:material",
+                    "meta": 771
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "thermalfoundation:material"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 2L,
+                "item": "thermalfoundation:material"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:iron_ore"
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 2L,
+                "item": "minecraft:gold_ingot"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:gold_ore"
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 2L,
+                "item": "techguns:itemshared",
+                "meta": 63
+            }
+        }],
+        "input": [
+            {
+                "type": "empty",
+                "content": {}
+            },
+            {
+                "type": "empty",
+                "content": {}
+            },
+            {
+                "type": "empty",
+                "content": {}
+            },
+            {
+                "type": "empty",
+                "content": {}
+            },
+            {
+                "type": "empty",
+                "content": {}
+            },
+            {
+                "type": "empty",
+                "content": {}
+            },
+            {
+                "type": "empty",
+                "content": {}
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "thermalfoundation:material",
+                    "meta": 33
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "thermalfoundation:material",
+                "meta": 33
+            }
+        }],
+        "input": [
+            {
+                "type": "empty",
+                "content": {}
+            },
+            {
+                "type": "empty",
+                "content": {}
+            },
+            {
+                "type": "empty",
+                "content": {}
+            },
+            {
+                "type": "empty",
+                "content": {}
+            },
+            {
+                "type": "empty",
+                "content": {}
+            },
+            {
+                "type": "empty",
+                "content": {}
+            },
+            {
+                "type": "empty",
+                "content": {}
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "minecraft:gold_ingot"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [
+            {
+                "type": "fluidStack",
+                "content": {
+                    "amount": 45L,
+                    "fluid": "lubricant"
+                }
+            },
+            {
+                "type": "fluidStack",
+                "content": {
+                    "amount": 55L,
+                    "fluid": "gasoline"
+                }
+            },
+            {
+                "type": "fluidStack",
+                "content": {
+                    "amount": 10L,
+                    "fluid": "diesel"
+                }
+            }
+        ],
+        "input": [{
+            "type": "fluidStack",
+            "content": {
+                "amount": 100L,
+                "fluid": "oil"
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 2L,
+                "item": "thermalfoundation:material",
+                "meta": 771
+            }
+        }],
+        "input": [
+            {
+                "type": "fluidStack",
+                "content": {
+                    "amount": 30L,
+                    "fluid": "gasoline"
+                }
+            },
+            {
+                "type": "fluidStack",
+                "content": {
+                    "amount": 30L,
+                    "fluid": "water"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "mekanism:controlcircuit",
+                "meta": 3
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "mekanism:controlcircuit",
+                    "meta": 2
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 10L,
+                    "item": "mekanism:controlcircuit",
+                    "meta": 1
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "magneticraft:inserter"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "thermalfoundation:material",
+                    "meta": 24
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "thermalfoundation:material",
+                    "meta": 32
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "mekanism:controlcircuit"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "thermalfoundation:material",
+                "meta": 24
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 2L,
+                "item": "thermalfoundation:material",
+                "meta": 32
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "sdrones:item_hauler_drone"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 2L,
+                    "item": "thermalfoundation:material",
+                    "meta": 32
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "techguns:itemshared",
+                    "meta": 70
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 2L,
+                    "item": "mekanism:controlcircuit",
+                    "meta": 1
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "mekanismgenerators:generator",
+                    "meta": 1
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "minecraft:chest"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "techguns:itemshared",
+                "meta": 70
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 2L,
+                    "item": "mekanism:controlcircuit"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "libvulpes:motor"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "libvulpes:motor"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "thermalfoundation:material",
+                    "meta": 352
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "thermalfoundation:material",
+                    "meta": 24
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 2L,
+                    "item": "immersiveengineering:metal_device1",
+                    "meta": 6
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "thermalfoundation:material",
+                "meta": 352
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "thermalfoundation:material",
+                "meta": 160
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "thermalfoundation:material",
+                "meta": 160
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 5L,
+                "item": "minecraft:iron_ingot"
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "mekanismgenerators:generator",
+                "meta": 1
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "thermalfoundation:material",
+                    "meta": 320
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "thermalfoundation:material",
+                    "meta": 352
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 3L,
+                    "item": "mekanism:controlcircuit"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "immersiveengineering:metal_device1",
+                "meta": 6
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 2L,
+                "item": "thermalfoundation:material",
+                "meta": 32
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:chest"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 2L,
+                "item": "minecraft:log"
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "mekanism:robit"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "sdrones:item_hauler_drone"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "mekanism:controlcircuit",
+                    "meta": 2
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 2L,
+                    "item": "magneticraft:inserter"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 3L,
+                    "item": "techguns:itemshared",
+                    "meta": 85
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 2L,
+                "item": "techguns:itemshared",
+                "meta": 85
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "techguns:basicore",
+                "meta": 3
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "nbt": {"conveyorType": "immersiveengineering:conveyor"},
+                "amount": 2L,
+                "item": "immersiveengineering:conveyor"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "thermalfoundation:material",
+                    "meta": 32
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "thermalfoundation:material",
+                    "meta": 24
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "logisticalautomation:conveyor_fast"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "nbt": {"conveyorType": "immersiveengineering:conveyor"},
+                    "amount": 1L,
+                    "item": "immersiveengineering:conveyor"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 5L,
+                    "item": "thermalfoundation:material",
+                    "meta": 24
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 6L,
+                "item": "thermaldynamics:duct_32"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "mekanism:controlcircuit",
+                    "meta": 1
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "thermalfoundation:ore",
+                    "meta": 1
+                }
+            },
+            {
+                "type": "fluidStack",
+                "content": {
+                    "amount": 200L,
+                    "fluid": "lubricant"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 3L,
+                "item": "immersiveengineering:metal_decoration0",
+                "meta": 4
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 3L,
+                    "item": "thermalfoundation:material",
+                    "meta": 320
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 12L,
+                    "item": "thermalfoundation:material",
+                    "meta": 32
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 2L,
+                    "item": "thermalfoundation:material",
+                    "meta": 128
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 3L,
+                "item": "immersiveengineering:metal_decoration0",
+                "meta": 5
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 3L,
+                    "item": "thermalfoundation:material",
+                    "meta": 161
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 4L,
+                    "item": "thermalfoundation:material",
+                    "meta": 352
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 2L,
+                    "item": "immersiveengineering:material",
+                    "meta": 9
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 2L,
+                    "item": "minecraft:piston"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "immersiveengineering:material",
+                "meta": 9
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 4L,
+                    "item": "thermalfoundation:material",
+                    "meta": 160
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "thermalfoundation:material",
+                    "meta": 128
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:piston"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "minecraft:iron_ingot"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 3L,
+                    "item": "minecraft:planks"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 4L,
+                    "item": "magneticraft:limestone"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "minecraft:redstone"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 4L,
+                "item": "minecraft:planks"
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:log"
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 2L,
+                "item": "thermalfoundation:material",
+                "meta": 161
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "minecraft:gold_ingot"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "thermalfoundation:material",
+                    "meta": 130
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 2L,
+                "item": "thermalfoundation:material",
+                "meta": 130
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "thermalfoundation:ore",
+                "meta": 2
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 4L,
+                "item": "libvulpes:structuremachine"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 4L,
+                    "item": "immersiveengineering:metal_decoration0",
+                    "meta": 5
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 4L,
+                    "item": "thermalfoundation:material",
+                    "meta": 324
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "mekanism:controlcircuit",
+                    "meta": 1
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "thermalfoundation:material",
+                "meta": 324
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "thermalfoundation:material",
+                "meta": 132
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 2L,
+                "item": "thermalfoundation:material",
+                "meta": 132
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "thermalfoundation:ore",
+                "meta": 4
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "mekanism:basicblock",
+                "meta": 8
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 4L,
+                    "item": "forestry:ingot_copper"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 4L,
+                    "item": "techguns:itemshared",
+                    "meta": 55
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "mekanism:controlcircuit",
+                    "meta": 3
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "forestry:ingot_copper"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "advancedrocketry:productingot"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "mekanism:ingot",
+                    "meta": 1
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "thermalfoundation:material",
+                    "meta": 160
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 2L,
+                "item": "mekanism:ingot",
+                "meta": 1
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "mekanism:oreblock"
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 3L,
+                "item": "advancedrocketry:productingot"
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 7L,
+                    "item": "thermalfoundation:material",
+                    "meta": 132
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 3L,
+                    "item": "techguns:itemshared",
+                    "meta": 85
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "mekanismgenerators:generator",
+                "meta": 5
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 4L,
+                    "item": "mekanismgenerators:generator",
+                    "meta": 1
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "mekanism:controlcircuit",
+                    "meta": 1
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 3L,
+                    "item": "thermalfoundation:material",
+                    "meta": 352
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 8L,
+                "item": "techguns:itemshared",
+                "meta": 11
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 3L,
+                    "item": "thermalfoundation:material",
+                    "meta": 128
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 3L,
+                    "item": "minecraft:gunpowder"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 13L,
+                    "item": "minecraft:iron_ingot"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 8L,
+                "item": "techguns:itemshared",
+                "meta": 13
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 3L,
+                    "item": "thermalfoundation:material",
+                    "meta": 131
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 3L,
+                    "item": "minecraft:gunpowder"
+                }
+            },
+            {
+                "type": "empty",
+                "content": {}
+            },
+            {
+                "type": "empty",
+                "content": {}
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 13L,
+                    "item": "thermalfoundation:material",
+                    "meta": 163
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 4L,
+                "item": "thermalfoundation:material",
+                "meta": 163
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 3L,
+                    "item": "thermalfoundation:material",
+                    "meta": 128
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "thermalfoundation:material",
+                    "meta": 129
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 2L,
+                "item": "thermalfoundation:material",
+                "meta": 129
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "thermalfoundation:ore",
+                "meta": 1
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 2L,
+                "item": "thermalfoundation:material",
+                "meta": 131
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "thermalfoundation:ore",
+                "meta": 3
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 16L,
+                "item": "techguns:itemshared",
+                "meta": 6
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "techguns:itemshared",
+                    "meta": 51
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "techguns:itemshared",
+                    "meta": 75
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "techguns:itemshared",
+                "meta": 21
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "techguns:itemshared",
+                    "meta": 22
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 3L,
+                    "item": "techguns:itemshared",
+                    "meta": 6
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [
+            {
+                "type": "empty",
+                "content": {}
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "techguns:itemshared",
+                    "meta": 75
+                }
+            }
+        ],
+        "input": [
+            {
+                "type": "empty",
+                "content": {}
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "minecraft:gunpowder"
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "minecraft:dye",
+                    "meta": 4
+                }
+            },
+            {
+                "type": "fluidStack",
+                "content": {
+                    "amount": 250L,
+                    "fluid": "gasoline"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 9L,
+                "item": "minecraft:dye",
+                "meta": 4
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "minecraft:lapis_ore"
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "techguns:itemshared",
+                "meta": 84
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "thermalfoundation:material",
+                    "meta": 160
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "minecraft:obsidian"
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "techguns:itemshared",
+                "meta": 51
+            }
+        }],
+        "input": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "techguns:itemshared",
+                "meta": 84
+            }
+        }],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 4L,
+                "item": "techguns:itemshared",
+                "meta": 22
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 6L,
+                    "item": "techguns:itemshared",
+                    "meta": 84
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "techguns:itemshared",
+                    "meta": 58
+                }
+            }
+        ],
+        "catalyst": []
+    },
+    {
+        "output": [{
+            "type": "itemStack",
+            "content": {
+                "amount": 1L,
+                "item": "techguns:itemshared",
+                "meta": 58
+            }
+        }],
+        "input": [
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "techguns:itemshared",
+                    "meta": 51
+                }
+            },
+            {
+                "type": "itemStack",
+                "content": {
+                    "amount": 1L,
+                    "item": "minecraft:quartz"
+                }
+            }
+        ],
+        "catalyst": []
+    }
+]}

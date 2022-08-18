@@ -1,0 +1,31 @@
+{
+    "machine": "electric_furnace",
+    "registryName": "ef_glass",
+    "recipeTime": 25,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 420
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:sand",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:glass",
+            "amount": 1,
+	    "chance": 0.00
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "minecraft:glass",
+            "amount": 1
+        }
+    ]
+}

@@ -1,0 +1,494 @@
+<galaxy>
+    <star name="Gol" temp="100" x="0" y="0" numPlanets="0" numGasGiants="0" blackHole="false">
+	    <planet name="Gigantica" DIMID="5" customIcon="gasgiantred">
+			<isKnown>True</isKnown>
+			<GasGiant>true</GasGiant>
+			<orbitalDistance>15</orbitalDistance>
+			<planet name="Sek" DIMID="6">
+				<isKnown>false</isKnown>
+				<gravitationalMultiplier>50</gravitationalMultiplier>
+				<orbitalDistance>15</orbitalDistance>
+				<rotationalPeriod>2400</rotationalPeriod>
+				<atmosphereDensity>110</atmosphereDensity>
+				<orbitalPhi>1</orbitalPhi>
+				<biomeIds>advancedrocketry:hotdryrock</biomeIds>
+            </planet>
+        </planet>
+		<planet name="Ahkmet" DIMID="7" customIcon="lava">
+			<isKnown>True</isKnown>
+			<hasRings>false</hasRings>
+			<atmosphereDensity>175</atmosphereDensity>
+			<gravitationalMultiplier>90</gravitationalMultiplier>
+			<orbitalDistance>70</orbitalDistance>
+			<orbitalPhi>2</orbitalPhi>
+			<rotationalPeriod>5832000</rotationalPeriod>
+			<fillerBlock>minecraft:netherrack</fillerBlock>
+			<oceanBlock>minecraft:lava</oceanBlock>
+			<biomeIds>25,8,0</biomeIds>
+        </planet>
+        <planet name="Neu-Minecraftia" DIMID="0" dimMapping="">
+			<orbitalDistance>100</orbitalDistance>
+			<rotationalPeriod>24000</rotationalPeriod>
+			<isKnown>True</isKnown>
+            <planet name="Primus" DIMID="2">
+				<isKnown>false</isKnown>
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>1.0,1.0,1.0</skyColor>
+				<gravitationalMultiplier>32</gravitationalMultiplier>
+				<orbitalDistance>150</orbitalDistance>
+				<orbitalPhi>0</orbitalPhi>
+				<rotationalPeriod>128000</rotationalPeriod>
+				<atmosphereDensity>0</atmosphereDensity>
+				<biomeIds>advancedrocketry:moon,advancedrocketry:moondark</biomeIds>
+            </planet>
+			<planet name="Secunda" DIMID="3" customIcon="iceworld">
+				<fogColor>1.0,1.0,1.0</fogColor>
+				<skyColor>1.0,1.0,1.0</skyColor>
+				<atmosphereDensity>0</atmosphereDensity>
+				<gravitationalMultiplier>16</gravitationalMultiplier>
+				<orbitalDistance>200</orbitalDistance>
+				<orbitalPhi>5</orbitalPhi>
+				<rotationalPeriod>36000</rotationalPeriod>
+				<biomeIds>advancedrocketry:crystalchasms</biomeIds>
+            </planet>
+        </planet>
+        <planet name="Nauvis" DIMID="4">
+			<isKnown>True</isKnown>
+			<hasRings>true</hasRings>
+			<fogColor>0.24,0.36,0.41</fogColor>
+			<skyColor>0.24,0.36,0.41</skyColor>
+			<atmosphereDensity>100</atmosphereDensity>
+			<gravitationalMultiplier>95</gravitationalMultiplier>
+			<orbitalDistance>125</orbitalDistance>
+			<orbitalPhi>30</orbitalPhi>
+			<rotationalPeriod>20000</rotationalPeriod>
+			<biomeIds>37,165,38,130,35</biomeIds>
+        </planet>
+		<planet name="Baynor" DIMID="8" customIcon="gasgiantblue">
+			<isKnown>True</isKnown>
+			<GasGiant>true</GasGiant>
+			<hasRings>true</hasRings>
+			<orbitalDistance>180</orbitalDistance>
+			<planet name="Precur" DIMID="9">
+				<isKnown>false</isKnown>
+				<gravitationalMultiplier>50</gravitationalMultiplier>
+				<orbitalDistance>15</orbitalDistance>
+				<atmosphereDensity>25</atmosphereDensity>
+			</planet>
+			<planet name="Zanor" DIMID="10">
+				<isKnown>false</isKnown>
+				<fogColor>0.03,0.05,0.06</fogColor>
+				<skyColor>0.03,0.05,0.06</skyColor>
+				<gravitationalMultiplier>60</gravitationalMultiplier>
+				<orbitalDistance>30</orbitalDistance>
+				<atmosphereDensity>80</atmosphereDensity>
+				<biomeIds>minecraft:mushroom_island</biomeIds>
+			</planet>
+			<planet name="Ilnor" DIMID="11">
+				<isKnown>false</isKnown>
+				<fogColor>0.03,0.05,0.06</fogColor>
+				<skyColor>0.03,0.05,0.06</skyColor>
+				<gravitationalMultiplier>70</gravitationalMultiplier>
+				<orbitalDistance>60</orbitalDistance>
+				<atmosphereDensity>90</atmosphereDensity>
+			</planet>
+			<planet name="Kalnor" DIMID="12">
+				<isKnown>false</isKnown>
+				<gravitationalMultiplier>50</gravitationalMultiplier>
+				<orbitalDistance>120</orbitalDistance>
+				<atmosphereDensity>0</atmosphereDensity>
+			</planet>
+        </planet>
+    </star>
+	<star name="Anakardian" temp="71" x="50" y="120" size="0.8" numPlanets="0" numGasGiants="0" blackHole="false">
+	    <planet name="Muspelheim (13)" DIMID="13" customIcon="lava">
+			<fogColor>0.95,0.48,0.22</fogColor>
+			<skyColor>0.91,0.53,0.55</skyColor>
+			<isKnown>True</isKnown>
+			<hasRings>false</hasRings>
+			<atmosphereDensity>150</atmosphereDensity>
+			<gravitationalMultiplier>90</gravitationalMultiplier>
+			<orbitalDistance>27</orbitalDistance>
+			<fillerBlock>minecraft:netherrack</fillerBlock>
+			<oceanBlock>thermalfoundation:fluid_pyrotheum</oceanBlock>
+			<biomeIds>25,8,0</biomeIds>
+        </planet>
+		<planet name="Niflheim (14)" DIMID="14" customIcon="iceworld">
+			<isKnown>True</isKnown>
+			<fogColor>0.28,0.39,0.22</fogColor>
+			<skyColor>0.28,0.39,0.22</skyColor>
+			<orbitalDistance>127</orbitalDistance>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<atmosphereDensity>200</atmosphereDensity>
+			<oceanBlock>thermalfoundation:fluid_cryotheum</oceanBlock>
+			<biomeIds>minecraft:mutated_ice_flats,minecraft:frozen_ocean,minecraft:frozen_river</biomeIds>
+			<planet name="Steinn" DIMID="15">
+				<isKnown>True</isKnown>
+				<orbitalDistance>137</orbitalDistance>
+				<gravitationalMultiplier>33</gravitationalMultiplier>
+				<atmosphereDensity>0</atmosphereDensity>
+			</planet>
+		</planet>
+		<planet name="Nioavellir (16)" DIMID="16">
+			<fogColor>0.14,0.2,0.11</fogColor>
+			<skyColor>0.14,0.2,0.11</skyColor>
+			<gravitationalMultiplier>23</gravitationalMultiplier>
+			<orbitalDistance>161</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>24000</rotationalPeriod>
+			<atmosphereDensity>75</atmosphereDensity>
+			<biomeIds>minecraft:sky</biomeIds>
+			<fillerBlock>minecraft:end_stone</fillerBlock>
+		</planet>
+		<planet name="Gryttr" DIMID="17">
+			<isKnown>True</isKnown>
+			<orbitalDistance>189</orbitalDistance>
+			<gravitationalMultiplier>45</gravitationalMultiplier>
+			<atmosphereDensity>0</atmosphereDensity>
+		</planet>
+		<planet name="Ginnungagap (18)" DIMID="18">
+			<isKnown>true</isKnown>
+			<fogColor>0.01,0.1,0.05</fogColor>
+			<skyColor>0.01,0.1,0.05</skyColor>
+			<gravitationalMultiplier>200</gravitationalMultiplier>
+			<orbitalDistance>200</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>24000</rotationalPeriod>
+			<atmosphereDensity>115</atmosphereDensity>
+			<biomeIds>minecraft:mutated_savanna,minecraft:deep_ocean</biomeIds>
+			<planet name="Bjarg" DIMID="19">
+				<isKnown>True</isKnown>
+				<orbitalDistance>170</orbitalDistance>
+				<gravitationalMultiplier>48</gravitationalMultiplier>
+				<atmosphereDensity>1</atmosphereDensity>
+			</planet>
+		</planet>
+	</star>
+	<star name="System 2" temp="38" x="150" y="-60" size="0.5" numPlanets="0" numGasGiants="0" blackHole="false">
+	    <planet name="S2-P1" DIMID="20">
+			<isKnown>True</isKnown>
+			<fogColor>0.92,0.53,0.53</fogColor>
+			<skyColor>0.92,0.53,0.53</skyColor>
+			<orbitalDistance>60</orbitalDistance>
+			<gravitationalMultiplier>48</gravitationalMultiplier>
+			<atmosphereDensity>80</atmosphereDensity>
+			<planet name="S2-P1-M1" DIMID="21">
+				<isKnown>True</isKnown>
+				<orbitalDistance>128</orbitalDistance>
+				<gravitationalMultiplier>13</gravitationalMultiplier>
+				<atmosphereDensity>12</atmosphereDensity>
+			</planet>
+		</planet>
+	    <planet name="S2-P2" DIMID="22">
+			<isKnown>True</isKnown>
+			<orbitalDistance>180</orbitalDistance>
+			<gravitationalMultiplier>138</gravitationalMultiplier>
+			<atmosphereDensity>4</atmosphereDensity>
+			<planet name="S2-P2-M1" DIMID="23">
+				<isKnown>True</isKnown>
+				<orbitalDistance>97</orbitalDistance>
+				<gravitationalMultiplier>23</gravitationalMultiplier>
+				<atmosphereDensity>0</atmosphereDensity>
+			</planet>
+		</planet>
+	    <planet name="S2-P3" DIMID="24">
+			<isKnown>True</isKnown>
+			<orbitalDistance>189</orbitalDistance>
+			<gravitationalMultiplier>27</gravitationalMultiplier>
+			<atmosphereDensity>0</atmosphereDensity>
+		</planet>
+	    <planet name="S2-P4" DIMID="25">
+			<isKnown>True</isKnown>
+			<fogColor>0.03,0.01,0.01</fogColor>
+			<skyColor>0.03,0.01,0.01</skyColor>
+			<orbitalDistance>198</orbitalDistance>
+			<gravitationalMultiplier>50</gravitationalMultiplier>
+			<atmosphereDensity>144</atmosphereDensity>
+			<planet name="S2-P4-M1" DIMID="26">
+				<fogColor>0.02,0.01,0.01</fogColor>
+				<skyColor>0.02,0.01,0.01</skyColor>
+				<isKnown>True</isKnown>
+				<orbitalDistance>155</orbitalDistance>
+				<gravitationalMultiplier>25</gravitationalMultiplier>
+				<atmosphereDensity>100</atmosphereDensity>
+			</planet>
+		</planet>
+	</star>
+	<star name="Bigyihsuan" temp="112" x="-54" y="48" size="1.4" numPlanets="0" numGasGiants="0" >
+		<planet name="Gorganos" DIMID="26">
+			<isKnown>true</isKnown>
+			<GasGiant>true</GasGiant>
+			<gravitationalMultiplier>200</gravitationalMultiplier>
+			<orbitalDistance>26</orbitalDistance>
+			<atmosphereDensity>200</atmosphereDensity>
+			<planet name="Artoul" DIMID="27">
+				<isKnown>True</isKnown>
+				<orbitalDistance>118</orbitalDistance>
+				<gravitationalMultiplier>100</gravitationalMultiplier>
+				<atmosphereDensity>122</atmosphereDensity>
+			</planet>
+			<planet name="Azure" DIMID="28">
+				<isKnown>True</isKnown>
+				<orbitalDistance>190</orbitalDistance>
+				<gravitationalMultiplier>59</gravitationalMultiplier>
+				<atmosphereDensity>110</atmosphereDensity>
+			</planet>
+		</planet>
+		<planet name="Falius" DIMID="29">
+			<isKnown>True</isKnown>
+			<GasGiant>true</GasGiant>
+			<orbitalDistance>84</orbitalDistance>
+			<gravitationalMultiplier>173</gravitationalMultiplier>
+			<atmosphereDensity>200</atmosphereDensity>
+			<planet name="Ferron (30)" DIMID="30">
+				<fogColor>0.46,0.37,0.31</fogColor>
+				<skyColor>0.79,0.64,0.54</skyColor>
+				<isKnown>True</isKnown>
+				<orbitalDistance>43</orbitalDistance>
+				<gravitationalMultiplier>98</gravitationalMultiplier>
+				<atmosphereDensity>150</atmosphereDensity>
+				<biomeIds>minecraft:extreme_hills,minecraft:river</biomeIds>
+				<fillerBlock>magneticraft:limestone</fillerBlock>
+				<oceanBlock>thermalfoundation:fluid_petrotheum</oceanBlock>
+			</planet>
+			<planet name="Cupra (31)" DIMID="31">
+				<fogColor>0.96,0.32,0.03</fogColor>
+				<skyColor>0.96,0.58,0.18</skyColor>
+				<isKnown>True</isKnown>
+				<orbitalDistance>70</orbitalDistance>
+				<gravitationalMultiplier>29</gravitationalMultiplier>
+				<atmosphereDensity>100</atmosphereDensity>
+				<biomeIds>minecraft:extreme_hills,minecraft:river</biomeIds>
+				<fillerBlock>magneticraft:limestone</fillerBlock>
+				<oceanBlock>thermalfoundation:fluid_petrotheum</oceanBlock>
+			</planet>
+			<planet name="Karbo (32)" DIMID="32">
+				<fogColor>0.19,0.19,0.19</fogColor>
+				<skyColor>0.25,0.25,0.25</skyColor>
+				<isKnown>True</isKnown>
+				<orbitalDistance>91</orbitalDistance>
+				<gravitationalMultiplier>32</gravitationalMultiplier>
+				<atmosphereDensity>150</atmosphereDensity>
+				<biomeIds>advancedrocketry:stormland,minecraft:river</biomeIds>
+				<oceanBlock>immersivepetroleum:fluid_crude_oil</oceanBlock>
+			</planet>
+			<planet name="Stagni (33)" DIMID="33">
+				<fogColor>0.59,0.72,0.86</fogColor>
+				<skyColor>0.78,0.92,1.00</skyColor>
+				<isKnown>True</isKnown>
+				<orbitalDistance>108</orbitalDistance>
+				<gravitationalMultiplier>85</gravitationalMultiplier>
+				<atmosphereDensity>100</atmosphereDensity>
+				<biomeIds>minecraft:extreme_hills,minecraft:river</biomeIds>
+				<fillerBlock>magneticraft:limestone</fillerBlock>
+				<oceanBlock>thermalfoundation:fluid_petrotheum</oceanBlock>
+			</planet>
+			<planet name="Aurus (34)" DIMID="34">
+				<fogColor>0.91,0.64,0.15</fogColor>
+				<skyColor>0.92,0.87,0.27</skyColor>
+				<isKnown>True</isKnown>
+				<orbitalDistance>130</orbitalDistance>
+				<gravitationalMultiplier>71</gravitationalMultiplier>
+				<atmosphereDensity>100</atmosphereDensity>
+				<biomeIds>minecraft:extreme_hills,minecraft:river</biomeIds>
+				<fillerBlock>magneticraft:limestone</fillerBlock>
+				<oceanBlock>thermalfoundation:fluid_petrotheum</oceanBlock>
+			</planet>
+		</planet>			
+		<planet name="Thesulia" DIMID="35">
+			<isKnown>True</isKnown>
+			<fogColor>0.09,0.09,0.16</fogColor>
+			<skyColor>0.09,0.09,0.16</skyColor>
+			<orbitalDistance>172</orbitalDistance>
+			<gravitationalMultiplier>153</gravitationalMultiplier>
+			<atmosphereDensity>124</atmosphereDensity>
+			<planet name="Brogana" DIMID="36">
+				<isKnown>True</isKnown>
+				<orbitalDistance>178</orbitalDistance>
+				<gravitationalMultiplier>65</gravitationalMultiplier>
+				<atmosphereDensity>0</atmosphereDensity>
+			</planet>
+		</planet>
+		<planet name="Oedipus" DIMID="37">
+			<isKnown>True</isKnown>
+			<fogColor>0.03,0.03,0.06</fogColor>
+			<skyColor>0.03,0.03,0.06</skyColor>
+			<orbitalDistance>199</orbitalDistance>
+			<gravitationalMultiplier>75</gravitationalMultiplier>
+			<atmosphereDensity>137</atmosphereDensity>
+			<planet name="Damara" DIMID="38">
+				<isKnown>True</isKnown>
+				<orbitalDistance>169</orbitalDistance>
+				<gravitationalMultiplier>37</gravitationalMultiplier>
+				<atmosphereDensity>16</atmosphereDensity>
+			</planet>
+		</planet>
+	</star>
+	<star name="System 4" temp="115" x="162" y="67" size="5.7" numPlanets="0" numGasGiants="0" >
+		<planet name="S4-P1" DIMID="40">
+			<isKnown>true</isKnown>
+			<gravitationalMultiplier>16</gravitationalMultiplier>
+			<orbitalDistance>67</orbitalDistance>
+			<atmosphereDensity>0</atmosphereDensity>
+		</planet>
+		<planet name="S4-P2" DIMID="41">
+			<isKnown>true</isKnown>
+			<gravitationalMultiplier>127</gravitationalMultiplier>
+			<orbitalDistance>143</orbitalDistance>
+			<atmosphereDensity>0</atmosphereDensity>
+		</planet>
+		<planet name="S4-P3" DIMID="42">
+			<isKnown>true</isKnown>
+			<gravitationalMultiplier>77</gravitationalMultiplier>
+			<orbitalDistance>152</orbitalDistance>
+			<atmosphereDensity>0</atmosphereDensity>
+		</planet>
+		<planet name="S4-P4" DIMID="43">
+			<isKnown>true</isKnown>
+			<gravitationalMultiplier>76</gravitationalMultiplier>
+			<orbitalDistance>190</orbitalDistance>
+			<atmosphereDensity>0</atmosphereDensity>
+			<planet name="S4-P4-M1" DIMID="44">
+				<isKnown>true</isKnown>
+				<gravitationalMultiplier>17</gravitationalMultiplier>
+				<orbitalDistance>11</orbitalDistance>
+				<atmosphereDensity>0</atmosphereDensity>
+			</planet>
+			<planet name="S4-P4-M2" DIMID="45">
+				<isKnown>true</isKnown>
+				<gravitationalMultiplier>22</gravitationalMultiplier>
+				<orbitalDistance>20</orbitalDistance>
+				<atmosphereDensity>0</atmosphereDensity>
+			</planet>
+			<planet name="S4-P4-M3" DIMID="46">
+				<isKnown>true</isKnown>
+				<gravitationalMultiplier>46</gravitationalMultiplier>
+				<orbitalDistance>90</orbitalDistance>
+				<atmosphereDensity>0</atmosphereDensity>
+			</planet>
+		</planet>
+		<planet name="S4-P5" DIMID="47">
+			<isKnown>true</isKnown>
+			<GasGiant>true</GasGiant>
+			<gravitationalMultiplier>195</gravitationalMultiplier>
+			<orbitalDistance>194</orbitalDistance>
+			<atmosphereDensity>200</atmosphereDensity>
+			<planet name="S4-P5-M1" DIMID="48">
+				<isKnown>true</isKnown>
+				<fogColor>0.53,0.56,0.92</fogColor>
+				<skyColor>0.53,0.56,0.92</skyColor>
+				<gravitationalMultiplier>90</gravitationalMultiplier>
+				<orbitalDistance>101</orbitalDistance>
+				<atmosphereDensity>95</atmosphereDensity>
+			</planet>
+		</planet>
+	</star>
+	<star name="System 5" temp="43" x="-188" y="-143" size="10.0" numPlanets="0" numGasGiants="0" >
+		<planet name="S5-P1" DIMID="49">
+			<isKnown>true</isKnown>
+			<gravitationalMultiplier>126</gravitationalMultiplier>
+			<orbitalDistance>125</orbitalDistance>
+			<atmosphereDensity>0</atmosphereDensity>
+			<planet name="S5-P2" DIMID="50">
+				<isKnown>true</isKnown>
+				<gravitationalMultiplier>81</gravitationalMultiplier>
+				<orbitalDistance>40</orbitalDistance>
+				<atmosphereDensity>0</atmosphereDensity>
+			</planet>
+		</planet>
+		<planet name="S5-P2" DIMID="51">
+			<isKnown>true</isKnown>
+			<gravitationalMultiplier>38</gravitationalMultiplier>
+			<orbitalDistance>134</orbitalDistance>
+			<atmosphereDensity>0</atmosphereDensity>
+		</planet>
+		<planet name="S5-P3" DIMID="52">
+			<isKnown>true</isKnown>
+			<gravitationalMultiplier>24</gravitationalMultiplier>
+			<orbitalDistance>176</orbitalDistance>
+			<atmosphereDensity>0</atmosphereDensity>
+		</planet>
+		<planet name="S5-P4" DIMID="53">
+			<isKnown>true</isKnown>
+			<fogColor>0.04,0.02,0.02</fogColor>
+			<skyColor>0.04,0.02,0.02</skyColor>
+			<gravitationalMultiplier>167</gravitationalMultiplier>
+			<orbitalDistance>196</orbitalDistance>
+			<atmosphereDensity>100</atmosphereDensity>
+			<planet name="S5-P4-M1" DIMID="54">
+				<isKnown>true</isKnown>
+				<gravitationalMultiplier>20</gravitationalMultiplier>
+				<orbitalDistance>11</orbitalDistance>
+				<atmosphereDensity>0</atmosphereDensity>
+			</planet>
+			<planet name="S5-P4-M2" DIMID="55">
+				<isKnown>true</isKnown>
+				<gravitationalMultiplier>10</gravitationalMultiplier>
+				<orbitalDistance>54</orbitalDistance>
+				<atmosphereDensity>0</atmosphereDensity>
+			</planet>
+			<planet name="S5-P4-M3" DIMID="56">
+				<isKnown>true</isKnown>
+				<gravitationalMultiplier>80</gravitationalMultiplier>
+				<orbitalDistance>78</orbitalDistance>
+				<atmosphereDensity>0</atmosphereDensity>
+			</planet>
+		</planet>
+	</star>
+	<star name="Solitude" temp="100" x="188" y="143" size="2.0" numPlanets="0" numGasGiants="0" blackHole="true">
+		<planet name="Limbo (57)" DIMID="57">
+			<isKnown>true</isKnown>
+			<fogColor>1.0,1.0,1.0</fogColor>
+			<skyColor>1.0,1.0,1.0</skyColor>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<orbitalDistance>100</orbitalDistance>
+			<orbitalPhi>0</orbitalPhi>
+			<rotationalPeriod>12000</rotationalPeriod>
+			<atmosphereDensity>75</atmosphereDensity>
+			<biomeIds>advancedrocketry:alien forest,minecraft:river</biomeIds>
+		</planet>
+	</star>
+	<star name="Uootoob" temp="100" x="-87" y="77" size="1.0" numPlanets="0" numGasGiants="0" >
+		<planet name="JimMiningWorm" DIMID="58">
+			<isKnown>true</isKnown>
+			<gravitationalMultiplier>90</gravitationalMultiplier>
+			<fogColor>0.78,1.00,0.65</fogColor>
+			<skyColor>0.78,1.00,0.65</skyColor>
+			<orbitalDistance>70</orbitalDistance>
+			<atmosphereDensity>125</atmosphereDensity>
+			<biomeIds>minecraft:jungle,minecraft:river,minecraft:forest_hills,minecraft:mutated_plains</biomeIds>
+			<planet name="Biscay" DIMID="59">
+				<isKnown>true</isKnown>
+				<gravitationalMultiplier>40</gravitationalMultiplier>
+				<orbitalDistance>10</orbitalDistance>
+				<atmosphereDensity>0</atmosphereDensity>
+			</planet>
+			<planet name="Scargill" DIMID="60">
+				<isKnown>true</isKnown>
+				<gravitationalMultiplier>60</gravitationalMultiplier>
+				<orbitalDistance>20</orbitalDistance>
+				<atmosphereDensity>0</atmosphereDensity>
+			</planet>
+		</planet>
+		<planet name="Lensmanoz" DIMID="61">
+			<isKnown>true</isKnown>
+			<gravitationalMultiplier>100</gravitationalMultiplier>
+			<hasRings>true</hasRings>
+			<fogColor>0.13,0.48,0.13</fogColor>
+			<skyColor>0.13,0.48,0.13</skyColor>
+			<orbitalDistance>100</orbitalDistance>
+			<atmosphereDensity>100</atmosphereDensity>
+			<biomeIds>minecraft:plains,minecraft:river,minecraft:jungle_hills,minecraft:jungle_edge</biomeIds>
+		</planet>
+		<planet name="nzhook" DIMID="62">
+			<isKnown>true</isKnown>
+			<gravitationalMultiplier>80</gravitationalMultiplier>
+			<hasRings>true</hasRings>
+			<fogColor>0.00,0.34,0.44</fogColor>
+			<skyColor>0.00,0.34,0.44</skyColor>
+			<orbitalDistance>115</orbitalDistance>
+			<atmosphereDensity>110</atmosphereDensity>
+			<biomeIds>minecraft:ocean,minecraft:deep_ocean,minecraft:beaches</biomeIds>
+		</planet>
+	</star>
+</galaxy>

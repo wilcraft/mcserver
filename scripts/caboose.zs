@@ -1,0 +1,1 @@
+mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:coal:1>, <ore:logWood>, 100);
